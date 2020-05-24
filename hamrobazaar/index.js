@@ -44,7 +44,7 @@ class hamrobazaar extends BaseCrawler {
     console.log(`Procesing: ${urls[i].type}`);
     let products = await this.processCategory(urls[i], cookieStr);
     fs.writeFileSync(
-      `${filePath}${urls[i].type}_${new Date().toLocaleString("en-CA")}.json`,
+      `${filePath}${urls[i].type}_${new Date()}.json`,
       JSON.stringify(products)
     );
   }

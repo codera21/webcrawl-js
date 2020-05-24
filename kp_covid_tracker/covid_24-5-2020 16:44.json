@@ -1,0 +1,618 @@
+{
+   "banke": {
+      "code": "banke",
+      "name": "Banke",
+      "total": "142",
+      "deaths": "1",
+      "recovered": "21",
+      "readmitted": "0"
+   },
+   "parsa": {
+      "code": "parsa",
+      "name": "Parsa",
+      "total": "91",
+      "deaths": "0",
+      "recovered": "3",
+      "readmitted": "1"
+   },
+   "kapilvastu": {
+      "code": "kapilvastu",
+      "name": "Kapilvastu",
+      "total": "77",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "rupandehi": {
+      "code": "rupandehi",
+      "name": "Rupandehi",
+      "total": "37",
+      "deaths": "0",
+      "recovered": "1",
+      "readmitted": "0"
+   },
+   "jhapa": {
+      "code": "jhapa",
+      "name": "Jhapa",
+      "total": "36",
+      "deaths": "0",
+      "recovered": "2",
+      "readmitted": "0"
+   },
+   "sarlahi": {
+      "code": "sarlahi",
+      "name": "Sarlahi",
+      "total": "33",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "udayapur": {
+      "code": "udayapur",
+      "name": "Udayapur",
+      "total": "33",
+      "deaths": "0",
+      "recovered": "23",
+      "readmitted": "0"
+   },
+   "rauthat": {
+      "code": "rauthat",
+      "name": "Rautahat",
+      "total": "22",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "1"
+   },
+   "bara": {
+      "code": "bara",
+      "name": "Bara",
+      "total": "11",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "kathmandu": {
+      "code": "kathmandu",
+      "name": "Kathmandu",
+      "total": "11",
+      "deaths": "0",
+      "recovered": "3",
+      "readmitted": "1"
+   },
+   "dhanusa": {
+      "code": "dhanusa",
+      "name": "Dhanusa",
+      "total": "9",
+      "deaths": "0",
+      "recovered": "1",
+      "readmitted": "0"
+   },
+   "dhankuta": {
+      "code": "dhankuta",
+      "name": "Dhankuta",
+      "total": "7",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "kailali": {
+      "code": "kailali",
+      "name": "Kailali",
+      "total": "7",
+      "deaths": "0",
+      "recovered": "4",
+      "readmitted": "0"
+   },
+   "chitwan": {
+      "code": "chitwan",
+      "name": "Chitwan",
+      "total": "6",
+      "deaths": "0",
+      "recovered": "2",
+      "readmitted": "0"
+   },
+   "nawalparasiwest": {
+      "code": "nawalparasiwest",
+      "name": "Nawalparasi West",
+      "total": "6",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "baitadi": {
+      "code": "baitadi",
+      "name": "Baitadi",
+      "total": "5",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "dang": {
+      "code": "dang",
+      "name": "Dang",
+      "total": "5",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "morang": {
+      "code": "morang",
+      "name": "Morang",
+      "total": "5",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "bhaktapur": {
+      "code": "bhaktapur",
+      "name": "Bhaktapur",
+      "total": "4",
+      "deaths": "0",
+      "recovered": "2",
+      "readmitted": "0"
+   },
+   "bardiya": {
+      "code": "bardiya",
+      "name": "Bardiya",
+      "total": "3",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "dhading": {
+      "code": "dhading",
+      "name": "Dhading",
+      "total": "3",
+      "deaths": "0",
+      "recovered": "1",
+      "readmitted": "0"
+   },
+   "mahottari": {
+      "code": "mahottari",
+      "name": "Mahottari",
+      "total": "3",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "makwanpur": {
+      "code": "makwanpur",
+      "name": "Makwanpur",
+      "total": "3",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "sunsari": {
+      "code": "sunsari",
+      "name": "Sunsari",
+      "total": "3",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "surkhet": {
+      "code": "surkhet",
+      "name": "Surkhet",
+      "total": "3",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "baglung": {
+      "code": "baglung",
+      "name": "Baglung",
+      "total": "2",
+      "deaths": "0",
+      "recovered": "2",
+      "readmitted": "0"
+   },
+   "nawalparasieast": {
+      "code": "nawalparasieast",
+      "name": "Nawalparasi East",
+      "total": "2",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "saptari": {
+      "code": "saptari",
+      "name": "Saptari",
+      "total": "2",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "bhojpur": {
+      "code": "bhojpur",
+      "name": "Bhojpur",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "1",
+      "readmitted": "0"
+   },
+   "dadeldhura": {
+      "code": "dadeldhura",
+      "name": "Dadeldhura",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "dailekh": {
+      "code": "dailekh",
+      "name": "Dailekh",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "gulmi": {
+      "code": "gulmi",
+      "name": "Gulmi",
+      "total": "1",
+      "deaths": "1",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "kanchanpur": {
+      "code": "kanchanpur",
+      "name": "Kanchanpur",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "1",
+      "readmitted": "0"
+   },
+   "kavrepalanchowk": {
+      "code": "kavrepalanchowk",
+      "name": "Kavrepalanchowk",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "khotang": {
+      "code": "khotang",
+      "name": "Khotang",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "lalitpur": {
+      "code": "lalitpur",
+      "name": "Lalitpur",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "lamjung": {
+      "code": "lamjung",
+      "name": "Lamjung",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "ramechhap": {
+      "code": "ramechhap",
+      "name": "Ramechhap",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "sindhuli": {
+      "code": "sindhuli",
+      "name": "Sindhuli",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "sindhupalchowk": {
+      "code": "sindhupalchowk",
+      "name": "Sindhupalchowk",
+      "total": "1",
+      "deaths": "1",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "siraha": {
+      "code": "siraha",
+      "name": "Siraha",
+      "total": "1",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "achham": {
+      "code": "achham",
+      "name": "Achham",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "arghakhanchi": {
+      "code": "arghakhanchi",
+      "name": "Arghakhanchi",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "bajhang": {
+      "code": "bajhang",
+      "name": "Bajhang",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "bajura": {
+      "code": "bajura",
+      "name": "Bajura",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "darchula": {
+      "code": "darchula",
+      "name": "Darchula",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "dolkha": {
+      "code": "dolkha",
+      "name": "Dolakha",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "dolpa": {
+      "code": "dolpa",
+      "name": "Dolpa",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "doti": {
+      "code": "doti",
+      "name": "Doti",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "gorkha": {
+      "code": "gorkha",
+      "name": "Gorkha",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "humla": {
+      "code": "humla",
+      "name": "Humla",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "illam": {
+      "code": "illam",
+      "name": "Illam",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "jajarkot": {
+      "code": "jajarkot",
+      "name": "Jajarkot",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "jumla": {
+      "code": "jumla",
+      "name": "Jumla",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "kalikot": {
+      "code": "kalikot",
+      "name": "Kalikot",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "kaski": {
+      "code": "kaski",
+      "name": "Kaski",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "manang": {
+      "code": "manang",
+      "name": "Manang",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "mugu": {
+      "code": "mugu",
+      "name": "Mugu",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "mustang": {
+      "code": "mustang",
+      "name": "Mustang",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "myagdi": {
+      "code": "myagdi",
+      "name": "Myagdi",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "nuwakot": {
+      "code": "nuwakot",
+      "name": "Nuwakot",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "okhaldhunga": {
+      "code": "okhaldhunga",
+      "name": "Okhaldhunga",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "palpa": {
+      "code": "palpa",
+      "name": "Palpa",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "panchthar": {
+      "code": "panchthar",
+      "name": "Panchthar",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "parbat": {
+      "code": "parbat",
+      "name": "Parbat",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "pyuthan": {
+      "code": "pyuthan",
+      "name": "Pyuthan",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "rasuwa": {
+      "code": "rasuwa",
+      "name": "Rasuwa",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "rolpa": {
+      "code": "rolpa",
+      "name": "Rolpa",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "rukumeast": {
+      "code": "rukumeast",
+      "name": "Rukum East",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "rukumwest": {
+      "code": "rukumwest",
+      "name": "Rukum West",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "salyan": {
+      "code": "salyan",
+      "name": "Salyan",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "sankhuwasabha": {
+      "code": "sankhuwasabha",
+      "name": "Sankhuwasabha",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "solukhumbu": {
+      "code": "solukhumbu",
+      "name": "Solukhumbu",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "syangja": {
+      "code": "syangja",
+      "name": "Syangja",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "tanahun": {
+      "code": "tanahun",
+      "name": "Tanahun",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "taplejung": {
+      "code": "taplejung",
+      "name": "Taplejung",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   },
+   "terhathum": {
+      "code": "terhathum",
+      "name": "Terhathum",
+      "total": "0",
+      "deaths": "0",
+      "recovered": "0",
+      "readmitted": "0"
+   }
+}
