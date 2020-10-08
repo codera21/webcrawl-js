@@ -1,5 +1,4 @@
 const axios = require("axios");
-const cheerio = require("cheerio");
 
 const globalHeaders = {
   "User-Agent":
@@ -9,55 +8,50 @@ const globalHeaders = {
 class BaseCrawler {
   constructor(baseUrl, useCookie = true) {
     this.baseUrl = baseUrl;
-    this.useCookie = useCookie;
     this.axios = axios.create({
-      baseUrl: this.baseUrl,
+      baseURL: this.baseUrl,
       timeout: 60000,
-      withCredentials: this.useCookie,
     });
   }
 
   async get(url, headers = {}) {
     let result = "";
+    const options = {
+      url: url,
+      method: "GET",
+      headers: {
+        ...globalHeaders,
+        ...headers,
+      },
+    };
     try {
-      result = await this.axios.get(url, {
-        headers: { ...globalHeaders, ...headers },
-      });
-      console.log(`Status: ${result.status} , ${result.statusText} `);
+      result = await this.axios(options);
+      console.log(`${url} Status: ${result.status} , ${result.statusText} `);
       return result.data;
     } catch (err) {
-      console.log(`Error while loading`);
+      console.log(err);
     }
     return false;
   }
 
-  resetAxios() {
-    console.log("Starting a new Session");
-    this.axios = null;
-
-    this.axios = axios.create({
-      baseUrl: this.baseUrl,
-      timeout: 60000,
-      withCredentials: this.useCookie,
-    });
-  }
-
-  async getCookie(url, headers = {}) {
+  async post(url, data = {}, headers = {}) {
     let result = null;
+    const options = {
+      url: url,
+      method: "POST",
+      headers: {
+        ...globalHeaders,
+        ...headers,
+      },
+      data: data,
+    };
     try {
-      result = await this.axios.get(url, {
-        headers: { ...globalHeaders, ...headers },
-      });
-      const cookies = [];
-      result.headers["set-cookie"].forEach((element) => {
-        cookies.push(element.split(";")[0]);
-      });
-
-      return cookies.join(" ");
+      result = await this.axios(options);
+      console.log(`Status: ${result.status} , ${result.statusText} `);
+      return result.data;
     } catch (err) {
-      console.log("Error on cookie");
+      console.log(err);
     }
-
     return false;
   }
 }
