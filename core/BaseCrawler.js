@@ -2,15 +2,15 @@ const axios = require("axios");
 
 const globalHeaders = {
   "User-Agent":
-    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:75.0) Gecko/20100101 Firefox/75.0"
 };
 
 class BaseCrawler {
-  constructor(baseUrl, useCookie = true) {
+  constructor(baseUrl) {
     this.baseUrl = baseUrl;
     this.axios = axios.create({
       baseURL: this.baseUrl,
-      timeout: 60000,
+      timeout: 60000
     });
   }
 
@@ -21,8 +21,8 @@ class BaseCrawler {
       method: "GET",
       headers: {
         ...globalHeaders,
-        ...headers,
-      },
+        ...headers
+      }
     };
     try {
       result = await this.axios(options);
@@ -41,9 +41,9 @@ class BaseCrawler {
       method: "POST",
       headers: {
         ...globalHeaders,
-        ...headers,
+        ...headers
       },
-      data: data,
+      data: data
     };
     try {
       result = await this.axios(options);

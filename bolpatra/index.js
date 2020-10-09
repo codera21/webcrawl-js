@@ -50,7 +50,6 @@ class CaloriesControlOrg extends BaseCrawler {
     }
 
     ret.imgSrc = imgSrc;
-
     return ret;
   }
 }
